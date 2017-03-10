@@ -3,10 +3,8 @@ This [video](https://www.youtube.com/watch?v=rAXVKapP5cM&t=441s) shows step-by-s
 
 
 
-1. Create a react-native app using react-native-cli with the following command:
-```
-react-native init <app-name>
-```
+1. Create a react-native app using react-native-cli with the command **react-native init [app-name]**
+
   1. Install the npm modules in the package.json using either:
   ```
   cd <app-name> && yarn install or npm install
