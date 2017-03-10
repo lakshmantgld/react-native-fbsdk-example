@@ -13,13 +13,14 @@ Setting up **Facebook SDK** for **RN** apps in **iOS** is not an easy one. There
 
 ## Xcode Setup for FBSDK:
 
-Since this is going to be a long list, I have written it in a [separate Readme]().
+Since this is going to be a long list, I have written it in a [separate Readme](https://github.com/lakshmantgld/react-native-fbsdk-example/blob/master/readmeFiles/fbsdkXcode.md).
 
 
 ## Facebook component in react-native:
 
 You can setup FB login in two ways:
-1. **Customized FB Login button** as shown in [js/components/fbLogin.js](https://github.com/lakshmantgld/react-native-fbsdk-example/blob/master/js/components/fbLogin.js):
+
+**1. Customized FB Login button** as shown in [js/components/fbLogin.js](https://github.com/lakshmantgld/react-native-fbsdk-example/blob/master/js/components/fbLogin.js):
 
 ```js
 import { LoginManager } from 'react-native-fbsdk';
@@ -49,7 +50,7 @@ render() {
 }
 ```
 
-2. **FB's own Login button** as shown in [js/components/fbLoginButton.js](https://github.com/lakshmantgld/react-native-fbsdk-example/blob/master/js/components/fbLoginButton.js):
+**2. FB's own Login button** as shown in [js/components/fbLoginButton.js](https://github.com/lakshmantgld/react-native-fbsdk-example/blob/master/js/components/fbLoginButton.js):
 
 ```js
 import { LoginManager } from 'react-native-fbsdk';
@@ -74,7 +75,7 @@ import { LoginManager } from 'react-native-fbsdk';
   onLogoutFinished={() => alert("logout.")}/>
 ```
 
-3. **Using GraphAPI:** (AccessToken is required to make GraphAPI requests) as shown in [js/components/fbGraphAPIRequest.js](https://github.com/lakshmantgld/react-native-fbsdk-example/blob/master/js/components/fbGraphAPIRequest.js):
+**Using GraphAPI:** (AccessToken is required to make GraphAPI requests) as shown in [js/components/fbGraphAPIRequest.js](https://github.com/lakshmantgld/react-native-fbsdk-example/blob/master/js/components/fbGraphAPIRequest.js):
 
 ```js
 import { LoginButton, AccessToken, GraphRequestManager, GraphRequest } from 'react-native-fbsdk';
@@ -127,4 +128,4 @@ import { LoginButton, AccessToken, GraphRequestManager, GraphRequest } from 'rea
 ```
 
 ## Contribution:
-Issues with setting up fbsdk are welcomed. Also looking for contributor for fbsdk-android. 
+Issues with setting up fbsdk are welcomed. Also looking for contributor for fbsdk-android.

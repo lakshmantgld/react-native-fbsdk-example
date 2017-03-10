@@ -12,6 +12,7 @@ react-native init <app-name>
   cd <app-name> && yarn install or npm install
   ```
   2. Install the **react-native-fbsdk** and link the binary:
+
   ```
   react-native install react-native-fbsdk
   react-native link react-native-fbsdk  
@@ -31,4 +32,4 @@ react-native init <app-name>
   8. The manual code modification to **AppDelegate.m** is the trickiest part. Watch the [video](https://youtu.be/rAXVKapP5cM?t=6m27s) for a clear understanding.
   9. Ufff!! End of Xcode setup.
 
-4. Now, add the javascript code to  your **index.ios.js** as described in this [section]().
+4. Now, add the javascript code to  your **index.ios.js** as described in this [section](https://github.com/lakshmantgld/react-native-fbsdk-example#facebook-component-in-react-native).
