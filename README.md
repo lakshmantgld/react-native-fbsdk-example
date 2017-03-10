@@ -9,5 +9,6 @@ Setting up **Facebook SDK** for **RN** apps in **ios** is not an easy one. There
 ### Example
 ================================
 
-![android](https://raw.githubusercontent.com/lakshmantgld/react-native-fbsdk-example/master/readmeFiles/Login.png)
-![ios](http://xgfe.github.io/react-native-datepicker/img/react-native-datepicker-ios.gif)
+![Login](https://raw.githubusercontent.com/lakshmantgld/react-native-fbsdk-example/master/readmeFiles/Login.png)
+![Accept Permission](https://raw.githubusercontent.com/lakshmantgld/react-native-fbsdk-example/master/readmeFiles/Accept%20Permission.png)
+![Make GraphAPI Request](https://raw.githubusercontent.com/lakshmantgld/react-native-fbsdk-example/master/readmeFiles/Make%20GraphAPI%20Request.png)
