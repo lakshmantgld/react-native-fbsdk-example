@@ -1,5 +1,4 @@
 # React-Native-FBSDK-Example
-==============================
 
 [![react-native](https://img.shields.io/badge/react--native-0.42.0-yellow.svg)](https://github.com/facebook/react-native)
 [![react-native-fbsdk](https://img.shields.io/badge/react--native--fbsdk-v0.5.0-blue.svg)](https://github.com/facebook/react-native-fbsdk)
