@@ -52,7 +52,7 @@ render() {
 **2. FB's own Login button** as shown in [js/components/fbLoginButton.js](https://github.com/lakshmantgld/react-native-fbsdk-example/blob/master/js/components/fbLoginButton.js):
 
 ```js
-import { LoginManager, LoginButton } from 'react-native-fbsdk';
+import { LoginManager, LoginButton, AccessToken } from 'react-native-fbsdk';
 
 <LoginButton
   publishPermissions={["publish_actions"]}
